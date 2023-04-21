@@ -1,0 +1,4 @@
+function_name, language, code_snippet, tags
+add_numbers, python, "def add_numbers(x, y):\n    return x + y\n", math, arithmetic
+sort_list, python, "def sort_list(lst):\n    return sorted(lst)\n", algorithms, sorting
+binary_search, java, "public int binarySearch(int[] arr, int target) {\n    int left = 0, right = arr.length - 1;\n    while (left <= right) {\n        int mid = left + (right - left) / 2;\n        if (arr[mid] == target) {\n            return mid;\n        } else if (arr[mid] < target) {\n            left = mid + 1;\n        } else {\n            right = mid - 1;\n        }\n    }\n    return -1;\n", algorithms, searching
